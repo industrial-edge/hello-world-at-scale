@@ -1,14 +1,18 @@
-# Copyright 2021 Siemens AG
-# This file is subject to the terms and conditions of the MIT License.  
-# See LICENSE file in the top-level directory.
-
-# Minimalistic docker-compose file to be used in development enviroment. Running docker-compose up should start the app.
 version: '2.4'
-
 services:
-  hello-world:
+  config-device-tags:
     build: ./src
-    image: 'hello-world:1.0.0'
+    image: 'config-device-tags:1.0.0'
     ports:
-      - '8080:80'
+      - '55555:80'
+    mem_limit: 50mb
     restart: always
+    logging:
+      options:
+        max-size: 10m
+        max-file: '3'
+      driver: json-file
+    volumes:
+      - './publish/:/publish/'
+      - './cfg-data/:/cfg-data/'
+      - './src/html/cfg/:/usr/share/nginx/html/cfg/'
