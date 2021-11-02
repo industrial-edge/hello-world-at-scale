@@ -1,4 +1,4 @@
-# Using configuration files and device tags to personalize applications
+# Using configuration files and device tags for mass deployment
 
 This application example shows how to use configuration files and device tags for mass demployment.
 
