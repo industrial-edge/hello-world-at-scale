@@ -1,6 +1,6 @@
 # Using configuration files and device tags to personalize applications
 
-This application example shows how to configure Industrial Edge applications and how to use device tags to map values specific for the device.
+This application example shows how to use configuration files and device tags for mass demployment.
 
 - [Using configuration files and device tags to personalize applications](#using-configuration-files-and-device-tags-to-personalize-applications)
   - [Description](#description)
