@@ -44,9 +44,15 @@ As we can see, the application looks the same as the original Hello World applic
 
 We will create new JSON file that will contain our configuration with the following content.
 
-![Configuration file](./docs/graphics/config_json.png)
+```json
+{
+  "title": "Configuration and Device Tags",
+  "ip": "##$ip$##",
+  "deviceName": "##$deviceName$##" 
+}
+```
 
-The *##$ip$##* and *##$deviceName$##* indicate placeholders that will be replace by device tags.
+The *##$ip$##* and *##$deviceName$##* indicate placeholders that will be replaced by device tags.
 
 Let's now create the device tags. Head over to Industrial Edge Management and open *Edge Devices/My Edge Devices/.../Tags*.
 
@@ -76,7 +82,7 @@ After the configuration is downloaded, refresh the application website. You shou
 
 ## Documentation
 
-You can find further documentation and help in the following links
+You can find further documentation and help at the following links
 
 - [Industrial Edge Hub](https://iehub.eu1.edge.siemens.cloud/)
 - [Industrial Edge Forum](https://support.industry.siemens.com/tf/ww/en/threads/338)
