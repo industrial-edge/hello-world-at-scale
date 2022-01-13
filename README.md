@@ -1,4 +1,4 @@
-# Using configuration files and device tags for mass deployment
+# Hello World at Scale
 
 This application example shows how to use configuration files and device tags for mass demployment.
 
