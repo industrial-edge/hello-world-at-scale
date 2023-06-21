@@ -55,7 +55,7 @@ We will create new JSON file that will contain our configuration with the follow
 
 The *##$ip$##* and *##$deviceName$##* indicate placeholders that will be replaced by device tags.
 
-Let's now create the device tags. Head over to Industrial Edge Management and open *Edge Devices/.../Tags*.
+Let's now create the device tags. Head over to Industrial Edge Management and open *Edge Devices/My Edge Devices/.../Tags*.
 
 ![Tags location](./docs/graphics/tags_1.png)
 
